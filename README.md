@@ -1,6 +1,6 @@
-# AI는 말도 안 되게 똑똑할까?
+# 프롬프트에 곁들인 신호는 AI의 답을 바꾸는가?
 
-프롬프트에 곁들인 신호에 따라 세 AI의 답이 어떻게 달라지는지 확인한 반복 실험 (작성자 유지원, 2026-10-06)
+ChatGPT·Gemini·Claude 세 AI에 대한 반복 실험 (작성자 유지원, 2026-10-06)
 
 - 사이트(쪽을 이어서 넘겨 보기): https://gamedh823-cmd.github.io/T10/
 - 전체 한 파일: [paper.pdf](https://github.com/gamedh823-cmd/T10/blob/main/paper.pdf)

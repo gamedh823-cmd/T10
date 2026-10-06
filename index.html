@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI는 말도 안 되게 똑똑할까?</title>
+<title>프롬프트에 곁들인 신호는 AI의 답을 바꾸는가</title>
 <style>
 :root{--bg:#e9ebec;--fg:#16191a;--bar:#ffffff;--rule:#cfd4d6;--accent:#1f5f7a}
 @media (prefers-color-scheme: dark){:root{--bg:#0f1213;--fg:#e4e8e9;--bar:#1a1f21;--rule:#31393c;--accent:#7cc0d8}}
@@ -21,35 +21,35 @@ footer a{color:var(--accent)}
 </style></head>
 <body>
 <header>
-  <h1>AI는 말도 안 되게 똑똑할까?</h1>
+  <h1>프롬프트에 곁들인 신호는 AI의 답을 바꾸는가?</h1>
   <label>쪽 이동 <select id="jump" aria-label="쪽 이동"><option value="1">1쪽</option><option value="2">2쪽</option><option value="3">3쪽</option><option value="4">4쪽</option><option value="5">5쪽</option><option value="6">6쪽</option><option value="7">7쪽</option><option value="8">8쪽</option><option value="9">9쪽</option><option value="10">10쪽</option><option value="11">11쪽</option><option value="12">12쪽</option><option value="13">13쪽</option><option value="14">14쪽</option><option value="15">15쪽</option><option value="16">16쪽</option><option value="17">17쪽</option><option value="18">18쪽</option><option value="19">19쪽</option><option value="20">20쪽</option><option value="21">21쪽</option></select></label>
   <a href="paper.pdf">전체 PDF</a>
   <a href="https://github.com/gamedh823-cmd/T10">저장소</a>
 </header>
 <main>
-<section class="pg" id="p1" data-n="1"><img src="pages/img/p01.png?v=21" alt="논문 1쪽" loading="lazy" width="1817" height="2572"><div class="cap">1 / 21쪽 · <a href="pages/p01.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p2" data-n="2"><img src="pages/img/p02.png?v=21" alt="논문 2쪽" loading="lazy" width="1817" height="2572"><div class="cap">2 / 21쪽 · <a href="pages/p02.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p3" data-n="3"><img src="pages/img/p03.png?v=21" alt="논문 3쪽" loading="lazy" width="1817" height="2572"><div class="cap">3 / 21쪽 · <a href="pages/p03.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p4" data-n="4"><img src="pages/img/p04.png?v=21" alt="논문 4쪽" loading="lazy" width="1817" height="2572"><div class="cap">4 / 21쪽 · <a href="pages/p04.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p5" data-n="5"><img src="pages/img/p05.png?v=21" alt="논문 5쪽" loading="lazy" width="1817" height="2572"><div class="cap">5 / 21쪽 · <a href="pages/p05.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p6" data-n="6"><img src="pages/img/p06.png?v=21" alt="논문 6쪽" loading="lazy" width="1817" height="2572"><div class="cap">6 / 21쪽 · <a href="pages/p06.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p7" data-n="7"><img src="pages/img/p07.png?v=21" alt="논문 7쪽" loading="lazy" width="1817" height="2572"><div class="cap">7 / 21쪽 · <a href="pages/p07.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p8" data-n="8"><img src="pages/img/p08.png?v=21" alt="논문 8쪽" loading="lazy" width="1817" height="2572"><div class="cap">8 / 21쪽 · <a href="pages/p08.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p9" data-n="9"><img src="pages/img/p09.png?v=21" alt="논문 9쪽" loading="lazy" width="1817" height="2572"><div class="cap">9 / 21쪽 · <a href="pages/p09.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p10" data-n="10"><img src="pages/img/p10.png?v=21" alt="논문 10쪽" loading="lazy" width="1817" height="2572"><div class="cap">10 / 21쪽 · <a href="pages/p10.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p11" data-n="11"><img src="pages/img/p11.png?v=21" alt="논문 11쪽" loading="lazy" width="1817" height="2572"><div class="cap">11 / 21쪽 · <a href="pages/p11.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p12" data-n="12"><img src="pages/img/p12.png?v=21" alt="논문 12쪽" loading="lazy" width="1817" height="2572"><div class="cap">12 / 21쪽 · <a href="pages/p12.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p13" data-n="13"><img src="pages/img/p13.png?v=21" alt="논문 13쪽" loading="lazy" width="1817" height="2572"><div class="cap">13 / 21쪽 · <a href="pages/p13.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p14" data-n="14"><img src="pages/img/p14.png?v=21" alt="논문 14쪽" loading="lazy" width="1817" height="2572"><div class="cap">14 / 21쪽 · <a href="pages/p14.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p15" data-n="15"><img src="pages/img/p15.png?v=21" alt="논문 15쪽" loading="lazy" width="1817" height="2572"><div class="cap">15 / 21쪽 · <a href="pages/p15.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p16" data-n="16"><img src="pages/img/p16.png?v=21" alt="논문 16쪽" loading="lazy" width="1817" height="2572"><div class="cap">16 / 21쪽 · <a href="pages/p16.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p17" data-n="17"><img src="pages/img/p17.png?v=21" alt="논문 17쪽" loading="lazy" width="1817" height="2572"><div class="cap">17 / 21쪽 · <a href="pages/p17.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p18" data-n="18"><img src="pages/img/p18.png?v=21" alt="논문 18쪽" loading="lazy" width="1817" height="2572"><div class="cap">18 / 21쪽 · <a href="pages/p18.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p19" data-n="19"><img src="pages/img/p19.png?v=21" alt="논문 19쪽" loading="lazy" width="1817" height="2572"><div class="cap">19 / 21쪽 · <a href="pages/p19.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p20" data-n="20"><img src="pages/img/p20.png?v=21" alt="논문 20쪽" loading="lazy" width="1817" height="2572"><div class="cap">20 / 21쪽 · <a href="pages/p20.pdf">이 쪽 PDF</a></div></section>
-<section class="pg" id="p21" data-n="21"><img src="pages/img/p21.png?v=21" alt="논문 21쪽" loading="lazy" width="1817" height="2572"><div class="cap">21 / 21쪽 · <a href="pages/p21.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p1" data-n="1"><img src="pages/img/p01.png?v=22" alt="논문 1쪽" loading="lazy" width="1817" height="2572"><div class="cap">1 / 21쪽 · <a href="pages/p01.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p2" data-n="2"><img src="pages/img/p02.png?v=22" alt="논문 2쪽" loading="lazy" width="1817" height="2572"><div class="cap">2 / 21쪽 · <a href="pages/p02.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p3" data-n="3"><img src="pages/img/p03.png?v=22" alt="논문 3쪽" loading="lazy" width="1817" height="2572"><div class="cap">3 / 21쪽 · <a href="pages/p03.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p4" data-n="4"><img src="pages/img/p04.png?v=22" alt="논문 4쪽" loading="lazy" width="1817" height="2572"><div class="cap">4 / 21쪽 · <a href="pages/p04.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p5" data-n="5"><img src="pages/img/p05.png?v=22" alt="논문 5쪽" loading="lazy" width="1817" height="2572"><div class="cap">5 / 21쪽 · <a href="pages/p05.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p6" data-n="6"><img src="pages/img/p06.png?v=22" alt="논문 6쪽" loading="lazy" width="1817" height="2572"><div class="cap">6 / 21쪽 · <a href="pages/p06.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p7" data-n="7"><img src="pages/img/p07.png?v=22" alt="논문 7쪽" loading="lazy" width="1817" height="2572"><div class="cap">7 / 21쪽 · <a href="pages/p07.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p8" data-n="8"><img src="pages/img/p08.png?v=22" alt="논문 8쪽" loading="lazy" width="1817" height="2572"><div class="cap">8 / 21쪽 · <a href="pages/p08.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p9" data-n="9"><img src="pages/img/p09.png?v=22" alt="논문 9쪽" loading="lazy" width="1817" height="2572"><div class="cap">9 / 21쪽 · <a href="pages/p09.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p10" data-n="10"><img src="pages/img/p10.png?v=22" alt="논문 10쪽" loading="lazy" width="1817" height="2572"><div class="cap">10 / 21쪽 · <a href="pages/p10.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p11" data-n="11"><img src="pages/img/p11.png?v=22" alt="논문 11쪽" loading="lazy" width="1817" height="2572"><div class="cap">11 / 21쪽 · <a href="pages/p11.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p12" data-n="12"><img src="pages/img/p12.png?v=22" alt="논문 12쪽" loading="lazy" width="1817" height="2572"><div class="cap">12 / 21쪽 · <a href="pages/p12.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p13" data-n="13"><img src="pages/img/p13.png?v=22" alt="논문 13쪽" loading="lazy" width="1817" height="2572"><div class="cap">13 / 21쪽 · <a href="pages/p13.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p14" data-n="14"><img src="pages/img/p14.png?v=22" alt="논문 14쪽" loading="lazy" width="1817" height="2572"><div class="cap">14 / 21쪽 · <a href="pages/p14.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p15" data-n="15"><img src="pages/img/p15.png?v=22" alt="논문 15쪽" loading="lazy" width="1817" height="2572"><div class="cap">15 / 21쪽 · <a href="pages/p15.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p16" data-n="16"><img src="pages/img/p16.png?v=22" alt="논문 16쪽" loading="lazy" width="1817" height="2572"><div class="cap">16 / 21쪽 · <a href="pages/p16.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p17" data-n="17"><img src="pages/img/p17.png?v=22" alt="논문 17쪽" loading="lazy" width="1817" height="2572"><div class="cap">17 / 21쪽 · <a href="pages/p17.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p18" data-n="18"><img src="pages/img/p18.png?v=22" alt="논문 18쪽" loading="lazy" width="1817" height="2572"><div class="cap">18 / 21쪽 · <a href="pages/p18.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p19" data-n="19"><img src="pages/img/p19.png?v=22" alt="논문 19쪽" loading="lazy" width="1817" height="2572"><div class="cap">19 / 21쪽 · <a href="pages/p19.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p20" data-n="20"><img src="pages/img/p20.png?v=22" alt="논문 20쪽" loading="lazy" width="1817" height="2572"><div class="cap">20 / 21쪽 · <a href="pages/p20.pdf">이 쪽 PDF</a></div></section>
+<section class="pg" id="p21" data-n="21"><img src="pages/img/p21.png?v=22" alt="논문 21쪽" loading="lazy" width="1817" height="2572"><div class="cap">21 / 21쪽 · <a href="pages/p21.pdf">이 쪽 PDF</a></div></section>
 </main>
-<footer>프롬프트에 곁들인 신호에 따라 세 AI의 답이 어떻게 달라지는지 확인한 반복 실험 · 유지원 · 2026-10-06<br>
+<footer>ChatGPT·Gemini·Claude 세 AI에 대한 반복 실험 · 유지원 · 2026-10-06<br>
 쪽마다 주소가 있습니다: 이 주소 뒤에 <code>#p5</code>처럼 붙이면 5쪽으로 열립니다.</footer>
 <script>
 (function(){
